@@ -1,0 +1,1753 @@
+{
+ "seed": 42,
+ "n": 100,
+ "meta": {
+  "dataset": "MMLU-Pro",
+  "shot": 0,
+  "layering": "by category",
+  "judge": "letter match"
+ },
+ "items": [
+  {
+   "qid": "4544",
+   "question": "Body temperature on the average is 98.6°F. What is thison (a)theCelsius scale and (b) the Kelvin scale?",
+   "options": [
+    "37.00°C, 310.15K",
+    "37.50°C, 311.65K",
+    "38.50°C, 311.65K",
+    "36.50°C, 309.65K",
+    "35.00°C, 308.15K",
+    "36.00°C, 300.15K",
+    "38.00°C, 320.15K",
+    "39.00°C, 330.15K",
+    "34.00°C, 307.15K",
+    "40.00°C, 313.15K"
+   ],
+   "answer": "A",
+   "category": "chemistry"
+  },
+  {
+   "qid": "10683",
+   "question": "This question is based on the following declarations: String strA = \"CARROT\", strB = \"Carrot\", strC = \"car\"; Given that all uppercase letters precede all lowercase letters when considering alphabetical order, which is true?",
+   "options": [
+    "strC.compareTo(strB) > 0 && strB.compareTo(strA) > 0",
+    "strA.compareTo(strC) > 0 && strC.compareTo(strB) < 0",
+    "strB.compareTo(strC) < 0 && strB.compareTo(strA) > 0",
+    "!(strB.compareTo(strA) == 0) && strA.compareTo(strB) > 0",
+    "strB.compareTo(strC) > 0 && strA.compareTo(strB) < 0",
+    "strC.compareTo(strB) < 0 && strB.compareTo(strA) < 0",
+    "strA.compareTo(strB) < 0 && strB.compareTo(strC) > 0",
+    "!(strA.compareTo(strB) == 0) && strB.compareTo(strA) < 0"
+   ],
+   "answer": "C",
+   "category": "computer science"
+  },
+  {
+   "qid": "5174",
+   "question": "What are the tallest trees on Earth?",
+   "options": [
+    "Noble Fir",
+    "Coast Redwood",
+    "Sitka Spruce",
+    "Coast Douglas Fir",
+    "Giant Sequoia",
+    "Yellow Meranti",
+    "Bald Cypress",
+    "Mountain Ash",
+    "Ponderosa Pine",
+    "Western Red Cedar"
+   ],
+   "answer": "B",
+   "category": "other"
+  },
+  {
+   "qid": "2723",
+   "question": "According to the Gestalt organizing principles of perception, when you look at, \"i n car n a t e,\" you tend to notice the word car rather than in, nate, at, or ate, because of",
+   "options": [
+    "symmetry",
+    "complexity",
+    "novelty",
+    "similarity",
+    "proximity",
+    "continuity",
+    "the phi phenomenon",
+    "common fate",
+    "closure"
+   ],
+   "answer": "E",
+   "category": "psychology"
+  },
+  {
+   "qid": "1655",
+   "question": "A state has a statute generally prohibiting the installation and use of radar detection devices in any motor vehicle operating on the roadways within the state. This prohibition was enacted to prevent motorists from evading radar or speed checkpoints on county and state highways. A neighboring state has no such regulation in effect. By the same token, Congress has taken no action on the matter. A resident of the neighboring state has installed a radar detection device in his automobile. While driving to visit his mother he is arrested and charged with violating the aforementioned state statute. The resident files a complaint challenging the constitutionality of the state statute. As applied to the resident, the state prohibition against the use of radar detection devices is likely to be held",
+   "options": [
+    "constitutional, because it can be considered a reasonable restriction on the right to privacy.",
+    "unconstitutional, because it unduly burdens interstate commerce.",
+    "unconstitutional, because the state statute fails to give credit to the law of a neighboring state.",
+    "constitutional, because the commerce clause does not invalidate a state regulation relating to interstate commerce unless Congress takes express action to do so.",
+    "constitutional, because states have the power to regulate their own roads and highways.",
+    "constitutional, because it protects a legitimate state interest.",
+    "unconstitutional, because it infringes on the rights of residents of other states.",
+    "unconstitutional, because the state statute is preempted by federal law.",
+    "unconstitutional, because it violates the Fourth Amendment's prohibition against unreasonable searches and seizures."
+   ],
+   "answer": "F",
+   "category": "law"
+  },
+  {
+   "qid": "9317",
+   "question": "The highest ocean tides occur when Earth and the Moon are",
+   "options": [
+    "at a 45-degree angle to the Sun",
+    "both at their furthest point from the Sun",
+    "both at their closest point to the Sun",
+    "lined up during winter",
+    "at any angle to the Sun",
+    "furthest from each other",
+    "at right angles to the Sun",
+    "lined up with the Sun",
+    "lined up during spring",
+    "closest to each other"
+   ],
+   "answer": "H",
+   "category": "physics"
+  },
+  {
+   "qid": "593",
+   "question": "How much interest will George pay on a 6-month loan of $300 at 8% interest?",
+   "options": [
+    "$26",
+    "$16",
+    "$12",
+    "$20",
+    "$10",
+    "$30",
+    "$22",
+    "$14",
+    "$24",
+    "$18"
+   ],
+   "answer": "C",
+   "category": "business"
+  },
+  {
+   "qid": "5362",
+   "question": "Which of the following is an example of devolution?",
+   "options": [
+    "Allowing states to decide how to meet federally mandated greenhouse gas emissions targets",
+    "The federal government setting a minimum wage that all states must meet",
+    "A state being prevented from implementing a fuel efficiency standard that is more stringent than that set by the federal government",
+    "A \"race to the bottom\" in which states compete with one another to have the fewest environmental regulations",
+    "A state being forced to comply with federal immigration policies",
+    "The federal government establishing nationwide educational standards",
+    "A state choosing to implement stricter gun control laws than those mandated by the federal government",
+    "A state that decriminalizes all drug use, contrary to federal law",
+    "A state that legalizes marijuana possession in conflict with federal law",
+    "The federal government overriding a state's decision to legalize same-sex marriage"
+   ],
+   "answer": "A",
+   "category": "other"
+  },
+  {
+   "qid": "7956",
+   "question": "(i + 1)(5 – 5i)(5 + 5i) =",
+   "options": [
+    "50 – 50i",
+    "75 - 75i",
+    "50 + 50i",
+    "25 + 25i",
+    "50 - 25i",
+    "50 + 25i",
+    "100 - 100i",
+    "100 + 100i",
+    "75 + 75i",
+    "25 – 25i"
+   ],
+   "answer": "C",
+   "category": "math"
+  },
+  {
+   "qid": "9346",
+   "question": "In an experiment with a stellar interferometer, the fringes from the star Betelgeuse had zero visibility for a wave-length in the middle of the visible spectrum for a separa-tion of the mirrors of 3m. Estimate the angle subtended by Betelgeuse in arc seconds.",
+   "options": [
+    "0.046 second of arc",
+    "0.040 second of arc",
+    "0.058 second of arc",
+    "0.093 second of arc",
+    "0.030 second of arc",
+    "0.034 second of arc",
+    "0.072 second of arc",
+    "0.052 second of arc",
+    "0.085 second of arc",
+    "0.065 second of arc"
+   ],
+   "answer": "A",
+   "category": "physics"
+  },
+  {
+   "qid": "2227",
+   "question": "The primary research method used by developmental psychologists is",
+   "options": [
+    "psychoanalysis",
+    "self-report inventories",
+    "longitudinal research",
+    "naturalistic observation",
+    "experimental method",
+    "experimentation",
+    "correlational research",
+    "survey research",
+    "cross-sectional research",
+    "case study"
+   ],
+   "answer": "I",
+   "category": "psychology"
+  },
+  {
+   "qid": "290",
+   "question": "On October 17, Thomas Long purchased two $1,000 bonds, bearing 6% interest payable January 1 and July 1, at 98. Find his total cost, and the net proceeds to the seller. Assume a brokerage fee of $5 per bond.",
+   "options": [
+    "$2,006 and $1,996",
+    "$1,990 and $1,970",
+    "$2,015 and $1,995",
+    "$2,006 and $1,986",
+    "$2,020 and $2,000",
+    "$2,010 and $1,980",
+    "$1,960 and $1,986",
+    "$2,000 and $1,970",
+    "$1,995 and $1,975",
+    "$1,980 and $1,960"
+   ],
+   "answer": "D",
+   "category": "business"
+  },
+  {
+   "qid": "1521",
+   "question": "A defendant, a nurse at a nursing home, is charged with murdering a resident at the home by adding an allegedly lethal substance to the resident's food. At trial, to prove that the substance added to the resident's food could result in death, the prosecutor, without first calling any witnesses, offers to read into evidence several pages from a standard medical treatise that support the prosecution's claim that the substance the defendant added to the food is lethal. Is the evidence offered admissible?",
+   "options": [
+    "Yes, because the lethal nature of the substance is relevant to the defendant's state of mind and intent.",
+    "No, because the treatise must be confirmed by an expert in the field before being admissible.",
+    "Yes, because the treatise is a public document and therefore exempt from the hearsay rule.",
+    "No, because the treatise itself must be introduced as an exhibit.",
+    "Yes, because the prosecutor is allowed to introduce evidence without calling witnesses.",
+    "No, because the treatise excerpts are considered hearsay and do not qualify for an exception.",
+    "Yes, although hearsay, under the learned treatise exception to the hearsay rule.",
+    "Yes, because the prosecution is merely providing evidence that supports their claim.",
+    "No, because the treatise excerpts were not offered during the examination of a qualified expert.",
+    "No, because the substance's lethal nature is not relevant to the case."
+   ],
+   "answer": "I",
+   "category": "law"
+  },
+  {
+   "qid": "5260",
+   "question": "Ace Co. issued 1000 shares of its $10 par value common stock for $15 per share in cash. How should this transaction be reported in Ace's statement of cash flows for the year of issuance?",
+   "options": [
+    "$15000 cash inflow from operating activities.",
+    "$10000 cash inflow from financing activities and $5000 cash outflow from investing activities.",
+    "$15000 cash inflow from financing activities.",
+    "No impact on cash flows as it is a non-cash transaction.",
+    "$15000 cash flow from investing activities.",
+    "$15000 cash outflow from financing activities.",
+    "$10000 cash flow from investing activities and $5000 adjustment to arrive at cash flows from operating activities.",
+    "$10000 cash inflow from financing activities and $5000 adjustment to arrive at cash flows from operating activities.",
+    "$10000 cash outflow from investing activities and $5000 adjustment to arrive at cash flows from financing activities.",
+    "$5000 cash inflow from financing activities and $10000 adjustment to arrive at cash flows from operating activities."
+   ],
+   "answer": "C",
+   "category": "other"
+  },
+  {
+   "qid": "10508",
+   "question": "Let x = 1. What is x << 3 in Python 3?",
+   "options": [
+    "16",
+    "4",
+    "8",
+    "5",
+    "10",
+    "2",
+    "12",
+    "3",
+    "1",
+    "6"
+   ],
+   "answer": "C",
+   "category": "computer science"
+  },
+  {
+   "qid": "4736",
+   "question": "The fact that early excavators of Teotihuacán mistook ordinary housing compounds for palaces suggests:",
+   "options": [
+    "the society was a theocracy, ruled by high priests.",
+    "commoners took over the residences of the elite.",
+    "the city was a democracy, ruled by common farmers and artisans.",
+    "the general standard of living was high.",
+    "the elite lived in ordinary housing compounds to blend in with the commoners.",
+    "the housing compounds were built with materials typically used for palaces.",
+    "the city's economic system was based on wealth distribution.",
+    "the city was abandoned and later occupied by a different civilization.",
+    "the society was mostly egalitarian, with almost no social stratification.",
+    "the excavators were inexperienced in identifying historical structures."
+   ],
+   "answer": "D",
+   "category": "history"
+  },
+  {
+   "qid": "3584",
+   "question": "At standard conditions, it is found that 28.0 g of carbon monoxide occupies 22.4 l. What is the density of carbon monoxide at 20°C and 600 torr?",
+   "options": [
+    "1.96 g/l",
+    "1.00 g/l",
+    "0.789 g/l",
+    "1.25 g/l",
+    "0.50 g/l",
+    "2.225 g/l",
+    "1.482 g/l",
+    ".9198 g/l",
+    "0.625 g/l",
+    "0.345 g/l"
+   ],
+   "answer": "H",
+   "category": "chemistry"
+  },
+  {
+   "qid": "4080",
+   "question": "The molar heat of vaporization of water is +43.9 kJ. What is the entropy change for the vaporization of water?",
+   "options": [
+    "16.2 J mol-1 K-1",
+    "2.78 J mol-1 K-1",
+    "22.1 J mol-1 K-1",
+    "35.0 J mol-1 K-1",
+    "8.49 J mol-1 K-1",
+    "5.67 J mol-1 K-1",
+    "4.184 J mol-1 K-1",
+    "118 J mol-1 K-1",
+    "10.5 J mol-1 K-1",
+    "50.0 J mol-1 K-1"
+   ],
+   "answer": "H",
+   "category": "chemistry"
+  },
+  {
+   "qid": "1301",
+   "question": "A developer wished to build an apartment house in a local city. He raised $1 million from various sources to fund the project. After searching for a vacant lot that would be sufficient for development, the developer concluded that there was not a suitable vacant lot available. Reluctantly, the developer concluded that he would have to purchase a developed lot, have the existing structures removed, and then build the apartment house. The developer was reluctant to do this, because he had not budgeted for the additional cost of buying a developed property and removing the development. After a search for an appropriate parcel, the developer purchased a large lot, developed with a single-story residential home, for $200,000. He then spent $50,000 having the residential home removed from the lot. Knowing that it would cost approximately $850,000 to build the apartment house, the developer realized he would need to raise another $100,000. He approached an investor about lending him $100,000. The investor was apprehensive about the project because the developer had not yet lined up a construction firm to build the apartment house. As a result, the parties signed the following written agreement:\"The investor promises to lend to the developer $100,000 at 5 percent interest within 30 days, provided the developer contracts with a construction company to build the apartment house for no more than $850,000. Loan to be repaid at the rate of $1,000 per month, starting one month after the completion of the apartment house. The loan is to be secured by a mortgage on the property. \"The developer then contracted with a construction company to build the apartment for $800,000. After the contract was signed and construction had begun, the developer asked the investor when he would be receiving the $100,000 the investor promised to lend him. The investor replied, \"I've changed my mind. I think this is too risky an investment. I'm not going to lend you the money. \"In an appropriate action to secure specific performance of the investor's promise to lend him the $100,000, the developer will",
+   "options": [
+    "win, because there is a memorandum that satisfies the Statute of Frauds.",
+    "win, because land is unique, making the legal remedy inadequate.",
+    "lose, because the developer's only remedy is for damages.",
+    "lose, because the developer cannot show detrimental reliance."
+   ],
+   "answer": "C",
+   "category": "law"
+  },
+  {
+   "qid": "4775",
+   "question": "This question refers to the following information.\nSeizing me, he led me down to the House of Darkness…\nTo the house where those who enter do not come out,\nAlong the road of no return,\nTo the house where those who dwell, do without light,\nWhere dirt is their drink, their food is of clay…\nWhere light cannot be seen. They dwell in the dark,\nAnd upon the door and bolt, there lies dust.\nfrom Tablet VII, The Epic of Gilgamesh, Sumeria, ca. 2100 B.C.E.\nTruth is good and its worth is lasting.\nIt has not been disturbed since the day of its creator,\nWhereas he who transgresses its ordinances is punished.\nIt lies as a path in front of even him who knows nothing.\nWrongdoing has never yet brought its venture to port…\nThose whom the gods guide cannot lose themselves.\nThose to whom they forbid passage will not be able to cross the river of life.\nfrom The Maxims of Ptahhotep, Egypt, ca. 2400 B.C.E.\nThe above texts are best understood in the context of which of the following?",
+   "options": [
+    "The use of religion to enforce legal norms",
+    "The use of religion to dictate artistic expressions",
+    "The use of religion to justify gender relations",
+    "The use of religion to structure economic transactions",
+    "The use of religion to ponder conceptions of the afterlife",
+    "The use of religion to explain social hierarchy",
+    "The use of religion to legitimize political power",
+    "The use of religion to establish educational systems",
+    "The use of religion to justify military conquests"
+   ],
+   "answer": "E",
+   "category": "history"
+  },
+  {
+   "qid": "8344",
+   "question": "In the casino game of roulette, there are 38 slots for a ball to drop into when it is rolled around the rim of a revolving wheel: 18 red, 18 black, and 2 green. What is the probability that the first time a ball drops into the red slot is on the 8th trial (in other words, suppose you are betting on red every time-what is the probability of losing 7 straight times before you win the first time)?",
+   "options": [
+    "0.0333",
+    "0.0256",
+    "0.0202",
+    "0.0053",
+    "0.0101",
+    "0.0112",
+    "0.0179",
+    "0.0278",
+    "0.0074",
+    "0.0158"
+   ],
+   "answer": "D",
+   "category": "math"
+  },
+  {
+   "qid": "2154",
+   "question": "In a skewed smooth distribution with a tail exended to the left, the statistic with the highest value is the",
+   "options": [
+    "median",
+    "interquartile range",
+    "geometric mean",
+    "quartile deviation",
+    "variance",
+    "range",
+    "standard deviation",
+    "mean",
+    "mode",
+    "harmonic mean"
+   ],
+   "answer": "I",
+   "category": "psychology"
+  },
+  {
+   "qid": "10365",
+   "question": "Statement 1| RELUs are not monotonic, but sigmoids are monotonic. Statement 2| Neural networks trained with gradient descent with high probability converge to the global optimum.",
+   "options": [
+    "True, False",
+    "True, True",
+    "Both statements are partially true",
+    "Statement 1 cannot be determined, Statement 2 is false",
+    "Both statements cannot be determined",
+    "False, False",
+    "Statement 1 is false, Statement 2 cannot be determined",
+    "Statement 1 cannot be determined, Statement 2 is true",
+    "Statement 1 is true, Statement 2 cannot be determined",
+    "False, True"
+   ],
+   "answer": "J",
+   "category": "computer science"
+  },
+  {
+   "qid": "7351",
+   "question": "All else equal when the United States exports more goods and services",
+   "options": [
+    "the value of the dollar rises as the supply of dollars decreases.",
+    "the value of the dollar falls as demand for dollars decreases.",
+    "the value of the dollar falls as the supply of dollars decreases.",
+    "the value of the dollar remains the same regardless of the supply and demand for dollars.",
+    "the value of the dollar falls as the supply of dollars increases.",
+    "the value of the dollar rises as demand for dollars increases.",
+    "the value of the dollar remains stable as the supply and demand for dollars are balanced.",
+    "the value of the dollar rises as the supply of dollars increases.",
+    "the value of the dollar falls, as the demand for dollars is lower than the supply.",
+    "the value of the dollar rises, despite a decrease in demand for dollars."
+   ],
+   "answer": "F",
+   "category": "economics"
+  },
+  {
+   "qid": "9564",
+   "question": "A car travels at the constant speed of 30 mph for 20 miles, at a speed of 40 mph for the next 20 miles, and then travels the final 20 miles at 50 mph. What was the average speed for the trip?",
+   "options": [
+    "36 mph",
+    "43.3 mph",
+    "45 mph",
+    "33.3 mph",
+    "35 mph",
+    "41.7 mph",
+    "42 mph",
+    "37.5 mph",
+    "38.2 mph",
+    "40 mph"
+   ],
+   "answer": "I",
+   "category": "physics"
+  },
+  {
+   "qid": "8396",
+   "question": "John has 12 marbles of different colors, including one red, one green, and one blue marble. In how many ways can he choose 4 marbles, if exactly one of the chosen marbles is red, green, or blue?",
+   "options": [
+    "84",
+    "441",
+    "300",
+    "252",
+    "210",
+    "110",
+    "120",
+    "360",
+    "495",
+    "276"
+   ],
+   "answer": "D",
+   "category": "math"
+  },
+  {
+   "qid": "801",
+   "question": "Assume that the following charges (flat rates) are made on $500 for a year and that the loan in each case is to be repaid in 12 equal monthly installments: (a) 3% , (b) 5%. What is the monthly payment and the true annual interest rate that the borrower is paying in each case? (Record interest rate correct to the nearest tenth of 1%.)",
+   "options": [
+    "Monthly payments: $43.92 at 3% and $42.75 at 5%; True annual interest rates: 5.2% at 3% and 9.5% at 5%",
+    "Monthly payments: $42.92 at 3% and $43.75 at 5%; True annual interest rates: 5.5% at 3% and 9.2% at 5%",
+    "Monthly payments: $41.67 at 3% and $44.17 at 5%; True annual interest rates: 6.8% at 3% and 10.9% at 5%",
+    "Monthly payments: $42.50 at 3% and $43.33 at 5%; True annual interest rates: 4.8% at 3% and 8.7% at 5%",
+    "Monthly payments: $41.92 at 3% and $44.75 at 5%; True annual interest rates: 6.5% at 3% and 10.2% at 5%",
+    "Monthly payments: $41.25 at 3% and $45.42 at 5%; True annual interest rates: 3.8% at 3% and 7.9% at 5%",
+    "Monthly payments: $45.00 at 3% and $40.00 at 5%; True annual interest rates: 7.5% at 3% and 12.0% at 5%",
+    "Monthly payments: $43.75 at 3% and $42.92 at 5%; True annual interest rates: 5.0% at 3% and 8.5% at 5%",
+    "Monthly payments: $44.17 at 3% and $41.67 at 5%; True annual interest rates: 6.2% at 3% and 11.1% at 5%",
+    "Monthly payments: $42.92 at 3% and $43.75 at 5%; True annual interest rates: 4.5% at 3% and 8.2% at 5%"
+   ],
+   "answer": "B",
+   "category": "business"
+  },
+  {
+   "qid": "3976",
+   "question": "1 mole of ammonia at - 33.33°C and 1.00atmis converted to vapor. Calculate q, w and \\DeltaE for the conversion, given that \\DeltaH = 589.3 Btu lb^-1. 1 lb of liquid occupies .02345 ft^3 and 1 lb of gas occupies 18.00 ft^3.",
+   "options": [
+    "q = 1.94 kJ mol^-1, w = 23.33 kJ mol^-1, \\DeltaE = 21.39 kJ mol^-1",
+    "q = 21.39 kJ mol^-1, w = 23.33 kJ mol^-1, ΔE = -1.94 kJ mol^-1",
+    "q = 23.33 kJ mol^-1, w = 21.39 kJ mol^-1, ΔE = 44.72 kJ mol^-1",
+    "q = 1.94 kJ mol^-1, w = -21.39 kJ mol^-1, ΔE = 23.33 kJ mol^-1",
+    "q = 23.33 kJ mol^-1, w = 1.94 kJ mol^-1, \\DeltaE = 21.39 kJ mol^-1",
+    "q = 1.94 kJ mol^-1, w = 23.33 kJ mol^-1, ΔE = 25.27 kJ mol^-1",
+    "q = 589.3 kJ mol^-1, w = 0 kJ mol^-1, ΔE = 589.3 kJ mol^-1",
+    "q = 21.39 kJ mol^-1, w = 1.94 kJ mol^-1, \\DeltaE = 23.33 kJ mol^-1",
+    "q = 21.39 kJ mol^-1, w = -1.94 kJ mol^-1, ΔE = 19.45 kJ mol^-1",
+    "q = 23.33 kJ mol^-1, w = 21.39 kJ mol^-1, \\DeltaE = 1.94 kJ mol^-1"
+   ],
+   "answer": "E",
+   "category": "chemistry"
+  },
+  {
+   "qid": "6503",
+   "question": "A 35-year-old female develops nausea and vomiting after she underwent a cholecystectomy for protracted ileus. Her body mass index was 23 kg/m2 before surgery, and, except for the cholecystitis, she was in good health. The patient remains unable to eat 6 days after surgery. Which of the following forms of nutritional support is most appropriate for this patient?",
+   "options": [
+    "oral protein-rich diet",
+    "feeding through a nasogastric feeding tube",
+    "feeding through a jejunostomy tube",
+    "central hyperalimentation",
+    "intravenous saline solution",
+    "peripheral hyperalimentation",
+    "oral carbohydrate-rich diet",
+    "feeding through a gastrostomy tube",
+    "oral fat-free modular diet",
+    "intravenous dextrose solution"
+   ],
+   "answer": "C",
+   "category": "health"
+  },
+  {
+   "qid": "1757",
+   "question": "Which of the following factors contributed significantly to the revival of natural law in the 20th century?",
+   "options": [
+    "The end of the Cold War",
+    "The Bolshevik Revolution",
+    "The international recognition of human rights after World War II",
+    "The invention of the Internet",
+    "The rise of Fascism",
+    "The rise of Communism in China",
+    "Depression of the 1930",
+    "The advent of the Industrial Revolution"
+   ],
+   "answer": "C",
+   "category": "law"
+  },
+  {
+   "qid": "3165",
+   "question": "During the mammalian cardiac cycle, a volume of blood equivalent to ventricular stroke volume is transferred from the more compliant venous side to the less compliant arterial side of the circulation. In terms of pressures within the venous and arterial compartments, this transfer results in",
+   "options": [
+    "an equal increase in both venous and arterial pressure",
+    "little effect on venous pressure and a large increase in arterial pressure",
+    "an increase in venous pressure and an equal but opposite decrease in arterial pressure",
+    "a small decrease in venous pressure and a large increase in arterial pressure",
+    "a large increase in venous pressure and a small increase in arterial pressure",
+    "a decrease in venous pressure and no change in arterial pressure",
+    "an increase in both venous and arterial pressure",
+    "no change in pressure in either compartment",
+    "no effect on venous pressure and a small increase in arterial pressure",
+    "a decrease in both venous and arterial pressure"
+   ],
+   "answer": "B",
+   "category": "biology"
+  },
+  {
+   "qid": "6741",
+   "question": "Which of the following structures is derived from ectomesenchyme?",
+   "options": [
+    "Cardiac muscle",
+    "Liver cells",
+    "Blood vessels",
+    "Adipose tissue",
+    "Melanocytes",
+    "Pancreatic cells",
+    "Skeletal muscles",
+    "Motor neurons"
+   ],
+   "answer": "E",
+   "category": "health"
+  },
+  {
+   "qid": "1737",
+   "question": "This jurisdiction has the following criminal statute in effect:\"A person is not responsible for criminal conduct if at the time of such conduct, as a result of mental disease or defect, he lacks substantial capacity to appreciate the wrongfulness of his conduct, or to conform his conduct to the requirements of law. \"One afternoon, a defendant was babysitting his five-year-old nephew. As they were playing catch outside, the defendant threw the ball over his nephew's head, and it rolled into the street. Instinctively, the nephew ran after the ball but tripped over the gutter and fell in the street. When he tripped, the nephew severely sprained his ankle and couldn't stand up. Moments later, a large garbage truck was backing up and ran over the nephew, killing him. Although the defendant saw his nephew's predicament, he made no effort to rescue him. Subsequently, the defendant was charged with involuntary manslaughter. At trial, the defendant testified that he was so shocked when he saw his nephew fall near the garbage truck that he froze and was unable to move until it was too late. Following the defendant's testimony, an expert witness testified for the defense that reactions of the sort described by the defendant are not unusual when a truly shocking event occurs. If the jury believes the testimony of the defendant and his expert witness, the defendant's best defense is which of the following?",
+   "options": [
+    "The defendant's actions were justifiable under the circumstances.",
+    "The defendant's failure to act was not voluntary.",
+    "The defendant was acting under duress.",
+    "The defendant's actions were an accident, not a crime.",
+    "The defendant was legally insane at the time of the incident.",
+    "The defendant was not responsible for his nephew's safety.",
+    "The defendant's criminal liability was superseded by that of the truck driver.",
+    "The defendant was not present at the scene of the accident.",
+    "The defendant was suffering from temporary insanity.",
+    "The defendant lacked the requisite mental state required for the commission of the crime."
+   ],
+   "answer": "B",
+   "category": "law"
+  },
+  {
+   "qid": "11532",
+   "question": "Find the magnitude of E for a plane wave in free space, if the magnitude of H for this wave is 5 amp/meter.",
+   "options": [
+    "1200 volts/meter",
+    "5 ohms",
+    "1883 volts/meter",
+    "940.5 volts/meter",
+    "5 volts/meter",
+    "1883 ohms",
+    "600 volts/meter",
+    "376.7 volts/meter",
+    "75.34 ohms",
+    "75.34 volts/meter"
+   ],
+   "answer": "C",
+   "category": "engineering"
+  },
+  {
+   "qid": "6248",
+   "question": "A 28-year-old man comes to the office because he would like to quit smoking cigarettes. He says, \"I cannot go more than a day without cigarettes because I get so anxious and irritable. I even wake up at night to smoke.\" The patient began smoking cigarettes at age 12 years; he was smoking two packs of cigarettes daily by age 17 years, and he has not curtailed his use since that time. He does not drink alcoholic beverages or use illicit drugs. Medical history is remarkable for childhood febrile seizures. He takes no medications. Vital signs are normal. The patient is interested in using a nicotine patch and bupropion therapy because he says his friend found the treatments to be helpful. In combining these two therapies, this patient is at greatest risk for which of the following?",
+   "options": [
+    "Hypertension",
+    "Heart arrhythmia",
+    "Increased anxiety",
+    "Polyuria",
+    "Renal insufficiency",
+    "Liver toxicity",
+    "Hypoglycemia",
+    "The patient is at no increased risk",
+    "Seizures",
+    "Respiratory distress"
+   ],
+   "answer": "I",
+   "category": "health"
+  },
+  {
+   "qid": "4377",
+   "question": "Calculate the volume of O_2 necessary to burn 50 liters of CO completely. The balanced reaction is: 2CO + O_2 \\rightarrow 2CO_2 Also, calculate the volume of CO_2 formed.",
+   "options": [
+    "O_2 volume is 75 liters and CO_2 volume is 150 liters",
+    "O_2 volume is 50 liters and CO_2 volume is 75 liters",
+    "O_2 volume is 25 liters and CO_2 volume is 100 liters",
+    "O_2 volume is 50 liters and CO_2 volume is 100 liters",
+    "O_2 volume is 12.5 liters and CO_2 volume is 50 liters",
+    "O_2 volume is 100 liters and CO_2 volume is 200 liters",
+    "O_2 volume is 25 liters and CO_2 volume is 25 liters",
+    "O_2 volume is 50 liters and CO_2 volume is 25 liters",
+    "O_2 volume is 50 liters and CO_2 volume is 50 liters",
+    "O_2 volume is 25 liters and CO_2 volume is 50 liters"
+   ],
+   "answer": "J",
+   "category": "chemistry"
+  },
+  {
+   "qid": "8412",
+   "question": "Find the number of integers n, 1 ≤ n ≤ 25 such that n^2 + 3n + 2 is divisible by 6.",
+   "options": [
+    "12",
+    "21",
+    "20",
+    "13",
+    "8",
+    "15",
+    "10",
+    "14",
+    "17",
+    "18"
+   ],
+   "answer": "D",
+   "category": "math"
+  },
+  {
+   "qid": "8596",
+   "question": "Which of the following could NOT be the sides of an isosceles triangle?",
+   "options": [
+    "5,5,5",
+    "2,2,3",
+    "6,10,10",
+    "4,12,12",
+    "2,2,4",
+    "5,5,11"
+   ],
+   "answer": "E",
+   "category": "math"
+  },
+  {
+   "qid": "3609",
+   "question": "A 2-liter Dumas bulb contains n moles of nitrogen at 0.5atm pressure and at T°K. On addition of 0.01 moles of oxygen, it is necessary to cool the bulb to a temperature of 10°C in order to maintain the same pressure. Calculate n and T.",
+   "options": [
+    "n = 0.01, T = 283K",
+    "n = 0.0332, T = 367K",
+    "n = 0.0332, T = 330K",
+    "n = 0.025, T = 350K",
+    "n = 0.02, T = 310K",
+    "n = 0.01, T = 310K",
+    "n = 0.0332, T = 283K",
+    "n = 0.04, T = 290K",
+    "n = 0.05, T = 300K",
+    "n = 0.0432, T = 283K"
+   ],
+   "answer": "B",
+   "category": "chemistry"
+  },
+  {
+   "qid": "4186",
+   "question": "Calculate the mass of water vapour present in a room of volume $400 \\mathrm{m}^3$ that contains air at $27^{\\circ} \\mathrm{C}$ on a day when the relative humidity is 60 per cent.",
+   "options": [
+    "6.2$\\text{kg}$ ",
+    "8.4$\\text{kg}$",
+    "9.8 kg",
+    "7.0$\\text{kg}$",
+    "11.6 kg",
+    "3.9 kg",
+    "10.3 kg",
+    "5.6$\\text{kg}$",
+    "12.4 kg",
+    "4.5 kg"
+   ],
+   "answer": "A",
+   "category": "chemistry"
+  },
+  {
+   "qid": "8720",
+   "question": "Find $(2^{20} + 2^{20} + 2^{20} +2^{21}) \\div 2^{17}$.",
+   "options": [
+    "80",
+    "20",
+    "40",
+    "70",
+    "60",
+    "50",
+    "30",
+    "0",
+    "100",
+    "10"
+   ],
+   "answer": "C",
+   "category": "math"
+  },
+  {
+   "qid": "1484",
+   "question": "Donny threw a knife at Sally, intending to injure her severely. However, Donny missed Sally. Sally saw the knife just as it whizzed by her head, missing it by about one inch. As a result, Sally was very scared. Sally sued Donny for assault and battery. Which of the following is most correct?",
+   "options": [
+    "Donny will be liable for battery, but not assault.",
+    "Donny will not be liable for either assault or battery because he did not actually hit Sally with the knife.",
+    "Donny will be liable for assault, but not battery because he missed Sally with the knife.",
+    "Donny will be liable for assault and for battery.",
+    "Donny will not be liable for either assault or battery because this is only a criminal matter.",
+    "Donny will not be liable for either assault or battery because Sally was not physically harmed.",
+    "Donny will be liable for assault and battery because he intended to cause harm.",
+    "Donny will be liable for both assault and battery because Sally was terrified.",
+    "Donny will be liable for battery, but not assault because Sally was able to dodge the knife.",
+    "Donny will be liable for assault, but not battery."
+   ],
+   "answer": "J",
+   "category": "law"
+  },
+  {
+   "qid": "12035",
+   "question": "A line amplifier of bandwidth 22 kHz has an input source resistanceof 750\\Omega at a standard noise temperature of 290°K.If the input and outputimpedencesof the amplifier are750\\Omega each, determine the effective input source noise power, expressed indbm.",
+   "options": [
+    "- 122.81 dbm",
+    "- 132.45 dbm",
+    "- 120.75dbm",
+    "- 124.53dbm",
+    "- 118.99 dbm",
+    "- 130.22dbm",
+    "- 126.38 dbm",
+    "- 134.57 dbm",
+    "- 115.67 dbm",
+    "- 128.67dbm"
+   ],
+   "answer": "D",
+   "category": "engineering"
+  },
+  {
+   "qid": "7835",
+   "question": "The region bounded by the x-axis and the function f(x) = x/(1 + x^3) is rotated about the x-axis. What is the volume of the solid generated?",
+   "options": [
+    "4π",
+    "3π",
+    "5π/2",
+    "6π",
+    "π/3",
+    "2π",
+    "π/2",
+    "π/4",
+    "3π/2",
+    "π"
+   ],
+   "answer": "E",
+   "category": "math"
+  },
+  {
+   "qid": "11250",
+   "question": "Whether someone is hypocritical regarding her claims is...",
+   "options": [
+    "Irrelevant to the truth of the claims",
+    "Only relevant if the person is a public figure",
+    "Only valid if the person is conscious of their hypocrisy",
+    "A sign that the person is untrustworthy",
+    "Direct evidence of the person's lying tendencies",
+    "Evidence that the claims are false",
+    "Relevant only in philosophical discussions",
+    "A proof that the person lacks integrity",
+    "Irrelevant to her character",
+    "Relevant only in court"
+   ],
+   "answer": "A",
+   "category": "philosophy"
+  },
+  {
+   "qid": "3437",
+   "question": "Which of these is the smallest unit that natural selection can change?",
+   "options": [
+    "an individual's phenotype",
+    "an individual's genotype",
+    "a population's phenotype",
+    "a species' genome",
+    "a species' genotype",
+    "a species' gene frequency",
+    "a cell's gene frequency",
+    "an individual's genome",
+    "a population's gene frequency",
+    "a population's genotype"
+   ],
+   "answer": "I",
+   "category": "biology"
+  },
+  {
+   "qid": "1458",
+   "question": "In 1973, a woman was the actual and record owner of 20 acres of certain undeveloped timberland. In September 1973, the woman mortgaged the 20 acres of timberland to the bank by a mortgage deed (in the traditional form of a conveyance in fee simple subject to a condition subsequent), which was not recorded until January 1974. The mortgage deed contained the following clause immediately after the legal description of the 20 acres of timberland:\"Together with all the real property now owned by (the woman) or which shall be owned by (the woman) during the continuance of the indebtedness secured by this mortgage. \" This mortgage was given, as the recorded instrument revealed, to secure a note for $100,000 repayable over a 40-year term. In March 2004, the woman, using money loaned by a finance company, purchased a 50-acre mountainous estate situated outside of a major city. This deed was recorded immediately. In April 2004, the woman executed and delivered to the finance company a mortgage to secure its loan. This mortgage was promptly and duly recorded. The finance company had no actual notice of the prior mortgage to the bank. In February 2007, the woman defaulted on both mortgages. The bank then initiated foreclosure proceedings against the woman and the finance company as joint defendants. In its foreclosure action, the bank averred that its mortgage was a first mortgage on both the 20 acres of timberland and the 50-acre estate. The finance company filed a cross-complaint, alleging that its mortgage was a first mortgage on the 50-acre estate and praying for foreclosure on that parcel of property. In order to decide this case in favor of the bank, the court does not need to resolve which of the following issues?",
+   "options": [
+    "Whether the bank's mortgage deed was legally recorded.",
+    "Whether the finance company is charged with record notice of the bank's mortgage.",
+    "Whether the finance company can rely on the doctrine of implied purchase money liens.",
+    "Whether the finance company's mortgage is a purchase money mortgage.",
+    "Whether the quoted clause in the mortgage instrument to the 20 acres of timberland covers the 50-acre estate.",
+    "Whether the woman's default on both mortgages is legally valid.",
+    "Whether the woman's purchase of the 50-acre estate was legally valid.",
+    "Whether the bank's foreclosure proceedings were initiated in a timely manner.",
+    "Whether the finance company had actual knowledge of the woman's mortgage with the bank."
+   ],
+   "answer": "C",
+   "category": "law"
+  },
+  {
+   "qid": "9203",
+   "question": "A 1-kg object is released from rest at the top of a rough-surfaced incline. The object slides without rotating to the bottom of the incline. The object’s kinetic energy at the bottom must be",
+   "options": [
+    "Equal to the block’s gravitational potential energy when it was released, because total mechanical energy must be conserved.",
+    "Equal to zero, because the object loses all its energy due to the roughness of the incline.",
+    "Less than the block’s gravitational potential energy when it was released, because the work done by the friction force must be greater than the block’s gain in kinetic energy.",
+    "Greater than the block’s gravitational potential energy when it was released, because the object gains energy from the friction on the rough incline.",
+    "Greater than the block’s gravitational potential energy when it was released, because the kinetic energy increases as the object slides down the incline.",
+    "Less than the block’s gravitational potential energy when it was released, because the gravitational potential energy was converted both to thermal energy and to kinetic energy.",
+    "Equal to the block’s gravitational potential energy when it was released, because the object does not lose any energy while sliding down.",
+    "Less than the block’s gravitational potential energy when it was released, because the object loses energy due to the air resistance.",
+    "More than the block’s gravitational potential energy when it was released, because the object gains speed while sliding down.",
+    "Equal to the block’s gravitational potential energy when it was released, because the gain in kinetic energy compensates for the mechanical energy lost to thermal energy on the rough incline."
+   ],
+   "answer": "F",
+   "category": "physics"
+  },
+  {
+   "qid": "9543",
+   "question": "Any atom that emits an alpha particle or beta particle",
+   "options": [
+    "changes its atomic number but remains the same element.",
+    "becomes an atom of a different element always.",
+    "remains the same element and isotope.",
+    "becomes a different element with the same atomic mass.",
+    "becomes an atom of a different element sometimes.",
+    "decreases its mass.",
+    "becomes an ion of the same element.",
+    "may become an atom of a different element.",
+    "becomes a different isotope of the same element.",
+    "increases its mass."
+   ],
+   "answer": "B",
+   "category": "physics"
+  },
+  {
+   "qid": "6019",
+   "question": "An example of a discontinuous change over the adult years is the change in",
+   "options": [
+    "Personality",
+    "Skin elasticity",
+    "Physical strength",
+    "Male hormone levels",
+    "Hair color",
+    "Working memory",
+    "Female hormone levels",
+    "Male sexuality",
+    "Vision acuity",
+    "Sleep patterns"
+   ],
+   "answer": "G",
+   "category": "health"
+  },
+  {
+   "qid": "6246",
+   "question": "A 15-year-old girl is brought to the physician 3 months after she had a blood pressure of 150/95 mm Hg at a routine examination prior to participation in school sports. She is asymptomatic and has no history of serious illness. Twelve months ago, she was diagnosed with a urinary tract infection and treated with oral trimethoprim-sulfamethoxazole. She currently takes no medications. Subsequent blood pressure measurements on three separate occasions since the last visit have been: 155/94 mm Hg, 145/90 mm Hg, and 150/92 mm Hg. She is at the 50th percentile for height and 95th percentile for weight. Her blood pressure today is 150/90 mm Hg confirmed by a second measurement, pulse is 80/min, and respirations are 12/min. Examination shows no other abnormalities. Her hematocrit is 40%. Urinalysis is within normal limits. Cardiac and renal ultrasonography shows no abnormalities. Which of the following is the most appropriate next step in management?",
+   "options": [
+    "Measurement of serum potassium levels",
+    "Measurement of urine corticosteroid concentrations",
+    "Exercise and weight reduction program",
+    "Captopril therapy",
+    "Initiate diuretic therapy",
+    "Referral for psychiatric evaluation",
+    "Initiate calcium channel blocker therapy",
+    "Measurement of urine catecholamine concentrations",
+    "Measurement of plasma renin activity",
+    "Initiate beta-blocker therapy"
+   ],
+   "answer": "C",
+   "category": "health"
+  },
+  {
+   "qid": "4971",
+   "question": "The Aztec Empire was based on the systematic expansion of:",
+   "options": [
+    "a vast network of roads and trade routes.",
+    "the expansion and control of waterways for transportation and irrigation.",
+    "the cultivation and trade of cacao and maize.",
+    "religious beliefs that required extensive and escalating human sacrifice.",
+    "tribute in the form of gold, jade, feathers, cloth, and jewels.",
+    "the establishment of colonies in unexplored territories.",
+    "ceramic production, a distinctive architectural style, and artistic expression.",
+    "farming techniques such as terracing and irrigation.",
+    "a strict caste system that promoted social stratification.",
+    "oppressive social and religious control based on military conquest."
+   ],
+   "answer": "E",
+   "category": "history"
+  },
+  {
+   "qid": "9310",
+   "question": "A stone is thrown vertically upward with an initial speed of 5 m/s. What is the velocity of the stone 3 seconds later?",
+   "options": [
+    "25 m/s, downward",
+    "35 m/s, downward",
+    "30 m/s, downward",
+    "5 m/s, downward",
+    "5 m/s, upward",
+    "30 m/s, upward",
+    "15 m/s, upward",
+    "25 m/s, upward",
+    "35 m/s, upward",
+    "15 m/s, downward"
+   ],
+   "answer": "A",
+   "category": "physics"
+  },
+  {
+   "qid": "2920",
+   "question": "Which of the following would most likely describe the fate of a vesicle formed as a result of phagocytosis?",
+   "options": [
+    "The vesicle remains intact and floats freely in the cytoplasm.",
+    "The vesicle merges with a Golgi apparatus.",
+    "The vesicle merges with a mitochondrion.",
+    "The vesicle fuses with the cell membrane and its contents are expelled out of the cell.",
+    "The vesicle breaks down on its own without merging with any other organelle.",
+    "The vesicle merges with a lysosome.",
+    "The vesicle releases its contents to the cytoplasm to be digested.",
+    "The vesicle is absorbed by the endoplasmic reticulum.",
+    "The vesicle is shuttled to the nucleus, and its contents become part of the nucleolus.",
+    "The vesicle merges with a peroxisome."
+   ],
+   "answer": "F",
+   "category": "biology"
+  },
+  {
+   "qid": "2328",
+   "question": "If a test has a standard error of measurement of 15 points, itis correct to conclude that",
+   "options": [
+    "about 85% of the observed scores for the test population lie within 15 points of the mean score",
+    "differences of up to 15 points represent the same true score",
+    "about 68% of the individuals with a given cure score will have observed scores within 15 points of the true score",
+    "about 68% of the observed scores for the test population lie within 15 points of the mean score",
+    "about 68% of the observed scores for the test population lie within 30 points of the mean score",
+    "about 68% of the observed scores will lie between 15 points below and above the true score",
+    "about 32% of the individuals with a given cure score will have observed scores within 15 points of the true score",
+    "about 15% of the individuals with a given score will have observed scores within 15 points of the true score",
+    "differences of up to 30 points represent the same true score",
+    "about 15% of the scores are in error (i.e., they are not measuring the trait reliably)"
+   ],
+   "answer": "C",
+   "category": "psychology"
+  },
+  {
+   "qid": "12028",
+   "question": "Find the Fourier sine series of f(x) = x^2 over the interval (0, 1).",
+   "options": [
+    "x^2 \\sim_s ^\\infty\\sum_n=1 {[{(- 1)^n+1} / (n\\pi)]} sinn\\pix",
+    "x^2 \\sim_s ^\\infty\\sum_n=1 {2 / (n\\pi)]} sinn\\pix",
+    "x^2 \\sim_s ^\\infty\\sum_n=1 {[{(- 1)^n} / (n^3\\pi^3)]} sinn\\pix",
+    "x^2 \\sim_s ^\\infty\\sum_n=1 {[{(- 1)^n+1} / (n\\pi)] + [{4} / (n^3\\pi^3)]} sinn\\pix",
+    "x^2 \\sim_s ^\\infty\\sum_n=1 {[{(- 1)^n} / (n^2\\pi^2)]} sinn\\pix",
+    "x^2 \\sim_s 2 ^\\infty\\sum_n=1 {[{(- 1)^n+1} / (n\\pi)] + [{2[1 - (- 1)^n]} / (n^3\\pi^3)]} sinn\\pix",
+    "x^2 \\sim_s ^\\infty\\sum_n=1 {[{1} / (n\\pi)] + [{(- 1)^n+1} / (n^2\\pi^2)]} sinn\\pix",
+    "x^2 \\sim_s 2 ^\\infty\\sum_n=1 {1 / (n^2\\pi^2)} sinn\\pix",
+    "x^2 \\sim_s 2 ^\\infty\\sum_n=1 {[{(- 1)^n+1} / (n\\pi)] - [{2[1 - (- 1)^n]} / (n^3\\pi^3)]} sinn\\pix",
+    "x^2 \\sim_s ^\\infty\\sum_n=1 {[{(- 1)^n+1} / (n^2\\pi^2)] - [{2[1 - (- 1)^n]} / (n^4\\pi^4)]} sinn\\pix"
+   ],
+   "answer": "I",
+   "category": "engineering"
+  },
+  {
+   "qid": "434",
+   "question": "Pick the correct description of the following term: Utilitarianism is…",
+   "options": [
+    "A theory which states that an action is morally right if it promotes the greatest good for the decision maker",
+    "A theory which states that an action is morally right if it results in a balanced distribution of good and bad outcomes",
+    "A theory which states that an action is morally right if it promotes the greatest good for the fewest people",
+    "A theory which states that an action is morally right if it promotes the least harm for the greatest number",
+    "A theory which states that an action is morally wrong if it promotes the greatest good for the majority",
+    "A theory which states that an action is morally incorrect if it promotes the greatest good for the greatest number",
+    "A theory which states that an action is morally right if it promotes the greatest good for the greatest number",
+    "A theory which states that an action is morally right if it promotes the greatest harm for the smallest number",
+    "A theory which states that an action is morally right if it promotes the greatest good for the individual performing the action",
+    "A theory which states that an action is morally right if it promotes the greatest good for the smallest number"
+   ],
+   "answer": "G",
+   "category": "business"
+  },
+  {
+   "qid": "6711",
+   "question": "Although theoretically any food protein could act as a food allergen, there are eight major food allergens in Europe and North America which account for most of the allergic triggers observed in childhood. Which of the allergens pairings contains an allergen, which is not part of the group of eight major allergens?\n",
+   "options": [
+    "Fish, shellfish",
+    "Soy, peanuts",
+    "Mustard seeds, lamb,"
+   ],
+   "answer": "C",
+   "category": "health"
+  },
+  {
+   "qid": "3228",
+   "question": "The frequency ofTay-Sachs disease in the Jewish population of New York City is about 0.015 and approximately 0.0015 in non-Jewish individuals. Homozygotesdie in infancy or early childhood. If the selection coefficient is 1 and the forward mutation rate is 1 × 10^-6, what is the equilibrium frequency of theTay-Sachs gene in the Jewish population under the combined effects of mutation and selection?",
+   "options": [
+    "0.02",
+    "0.001",
+    "1 × 10^-6",
+    "0.005",
+    "0.00001",
+    "0.1",
+    "0.985",
+    "0.01",
+    "0.0001",
+    "0.015"
+   ],
+   "answer": "B",
+   "category": "biology"
+  },
+  {
+   "qid": "11247",
+   "question": "Which of the following explanations best fits the fallacy of ignorance of refutation?",
+   "options": [
+    "asserting an argumentative opponent has taken an easily defeated position, which the opponent has not really taken, defeating the position, and acting as if you've done significant damage to that person's overall argument.",
+    "causing confusion during refutation because of a real or feigned lack of the ability to engage in refutation",
+    "characterizing an opposing argument in such a way to make it or its consequences appear to be ridiculous",
+    "arguing an action should be taken based only on the need to be loyal to someone or to a group"
+   ],
+   "answer": "B",
+   "category": "philosophy"
+  },
+  {
+   "qid": "7083",
+   "question": "What is the effect on savings of a tax cut of $10 billion? Is thisinflationary or deflationary? Assume that the marginal propensity to consume is 0.85.",
+   "options": [
+    "$1.5 billion",
+    "$8.5 billion",
+    "$0.85 billion",
+    "$15 billion",
+    "$56.67 billion",
+    "0.15",
+    "-$1.5 billion",
+    "$85 billion",
+    "$10 billion",
+    "$5 billion"
+   ],
+   "answer": "A",
+   "category": "economics"
+  },
+  {
+   "qid": "2251",
+   "question": "Discuss cognitive development during adolescence as describedby Piaget.",
+   "options": [
+    "The stage of formal operations begins at about the age of 11 when the child begins to think abstractly, hypothetically, and idealistically.",
+    "Cognitive development peaks in early adolescence and declines thereafter.",
+    "Cognitive development during adolescence is marked by a return to sensory-motor thinking.",
+    "Cognitive development begins in adolescence.",
+    "Cognitive development ends with the stage of formal operations.",
+    "Adolescents revert to egocentric thinking patterns that are typical of early childhood.",
+    "The stage of formal operations is only reached by a minority of individuals, with most never advancing beyond concrete operations.",
+    "The stage of formal operations is achieved by all individuals by the age of 8.",
+    "Cognitive development is characterized by the ability to deal with concrete situations.",
+    "Adolescents primarily focus on developing practical skills rather than abstract thinking."
+   ],
+   "answer": "A",
+   "category": "psychology"
+  },
+  {
+   "qid": "9434",
+   "question": "The compressions and rarefactions in sound normally travel",
+   "options": [
+    "in a random direction",
+    "in a zig-zag pattern",
+    "in the same direction",
+    "in a wave-like pattern but not in the same direction",
+    "at right angles to each other",
+    "in opposite directions",
+    "from the source to the listener only",
+    "None of these",
+    "in a circular pattern",
+    "in a straight line but not in the same direction"
+   ],
+   "answer": "C",
+   "category": "physics"
+  },
+  {
+   "qid": "4849",
+   "question": "This question refers to the following information.\n\"Permit us, then, earnestly to recommend these articles to the immediate and dispassionate attention of the legislatures of the respective states. Let them be candidly reviewed under a sense of the difficulty of combining in one system the various sentiments and interests of a continent divided into so many sovereign and independent communities, under a conviction of the absolute necessity of uniting all our councils and all our strength, to maintain and defend our common liberties….\"\nJournals of the Continental Congress, 1777\nA major weakness of the Articles of Confederation was that they",
+   "options": [
+    "made it too difficult for the government to raise money through taxes and duties",
+    "did not include a provision for creating new states",
+    "created a too-powerful chief executive",
+    "established a single, unified national identity too quickly",
+    "denied the federal government the power to mediate disputes between states",
+    "granted too much power to the judicial branch",
+    "failed to establish a national currency",
+    "did not include a mechanism for their own amendment",
+    "did not provide for a national army or navy",
+    "allowed for the unrestricted movement of goods and people between states"
+   ],
+   "answer": "A",
+   "category": "history"
+  },
+  {
+   "qid": "745",
+   "question": "A television manufacturing firm lowered the price of its deluxe portable television set from $350 to $320 per unit, in order to increasetheir revenues and profits. This price change resulted in an increase in sales from 1,000 units per month to 1,080 units per month. Assuming the unit production costs did not change, was their decision to lower prices a good one?",
+   "options": [
+    "The decision was a poor one",
+    "The decision had no effect",
+    "The decision was a good one",
+    "The decision increased profits",
+    "The decision increased profits but not revenues",
+    "The decision increased revenues but decreased profits",
+    "The decision had no effect on revenues but increased profits",
+    "The decision decreased both revenues and profits",
+    "The decision had no effect on profits but increased revenues",
+    "The decision increased revenues but not profits"
+   ],
+   "answer": "A",
+   "category": "business"
+  },
+  {
+   "qid": "5834",
+   "question": "Which of the following words cannot be decoded through knowledge of letter-sound relationships?",
+   "options": [
+    "Lamp",
+    "Flight",
+    "Light",
+    "Things",
+    "Fold",
+    "Said",
+    "Drain"
+   ],
+   "answer": "F",
+   "category": "other"
+  },
+  {
+   "qid": "5204",
+   "question": "Incumbent members of the House of Representatives win reelection more often than incumbent senators for all of the following reasons EXCEPT",
+   "options": [
+    "representatives are more likely to secure party endorsements",
+    "senators are more likely to face strong challengers from within their own party",
+    "senators have more political power than representatives, and Senate races are accordingly contested more aggressively",
+    "representatives more often run uncontested",
+    "representatives' constituents more often belong largely to the representative's party",
+    "senators have a larger geographic area to campaign in, making it more challenging",
+    "representatives may use federal funds to publicize their achievements via direct mail to constituents",
+    "representatives have shorter terms, allowing for more frequent engagement with constituents",
+    "senators have less visibility and recognition among voters",
+    "senators are more prone to controversies due to their high-profile positions"
+   ],
+   "answer": "G",
+   "category": "other"
+  },
+  {
+   "qid": "11764",
+   "question": "(a) Find the value of an inductor which carries 2 A of current and in which 20 J of energy is stored. (b) Find the value of a capacitor with 500 volts across it, in which 20 J of energy is stored.",
+   "options": [
+    "30 H, 75 \\muF",
+    "12 H, 140 \\muF",
+    "20 H, 100 \\muF",
+    "7 H, 220 \\muF",
+    "25 H, 80 \\muF",
+    "6 H, 180 \\muF",
+    "10 H, 160 \\muF",
+    "5 H, 200 \\muF",
+    "15 H, 120 \\muF",
+    "8 H, 250 \\muF"
+   ],
+   "answer": "G",
+   "category": "engineering"
+  },
+  {
+   "qid": "11882",
+   "question": "It is required to reduce the net radiant loss of the horizontal, cylindricalelectric heater 2 in. in diameter and 5 ft. long to zero, by keeping it in an oven whose walls are maintained at thesurface temperature of the heater. The air in the oven is at80°F and the heater dissipates energy at the rate of 150 watts. Determine the temperature at which the walls of the ovenare to be maintained.",
+   "options": [
+    "205°F",
+    "220°F",
+    "230°F",
+    "190°F",
+    "200°F",
+    "235°F",
+    "215°F",
+    "210°F",
+    "195°F",
+    "225°F"
+   ],
+   "answer": "A",
+   "category": "engineering"
+  },
+  {
+   "qid": "4928",
+   "question": "What do the amount of grave goods buried with the children at Sungir' indicate?",
+   "options": [
+    "The children were sometimes leaders of the tribe.",
+    "The tribe had a complex system of inherited social statuses.",
+    "The tribe was involved in an intricate trade network.",
+    "The tribe practiced a form of ancestor worship and the goods were offerings to the spirits.",
+    "The tribe spent most of their time carving beads."
+   ],
+   "answer": "B",
+   "category": "history"
+  },
+  {
+   "qid": "7434",
+   "question": "An externality",
+   "options": [
+    "results in a deficit of goods in the market",
+    "results in a surplus of goods in the market",
+    "exists when the equilibrium price is exactly equal to the market price",
+    "exists when markets cannot reach equilibrium",
+    "causes the equilibrium price to be artificially low",
+    "causes the equilibrium price to be artificially high",
+    "results in an equilibrium that does not maximize the total benefit to society",
+    "causes a shift in the demand curve to the left",
+    "causes the equilibrium quantity to exceed the market quantity",
+    "causes a shift in the supply curve to the right"
+   ],
+   "answer": "G",
+   "category": "economics"
+  },
+  {
+   "qid": "453",
+   "question": "Firestone's Clothing Store had an August 1 inventory of $2,300. During August, new merchandise purchases totaled $1,125,and sales were $3,485. If the margin on sales was 18%, estimate the final inventory on August 31.",
+   "options": [
+    "$800.00",
+    "$567.30",
+    "$1,500.00",
+    "$627.30",
+    "$940.00",
+    "$2,000.00",
+    "$1,938.00",
+    "$2,857.70",
+    "$1,725.00",
+    "$3,485"
+   ],
+   "answer": "B",
+   "category": "business"
+  },
+  {
+   "qid": "2475",
+   "question": "What methods are generally viewed as helpful in reducing prejudice?",
+   "options": [
+    "Implementing a quota system in all sectors of society",
+    "Use of subliminal messaging to alter beliefs",
+    "Providing information contrary to beliefs, equal-status contact, and interdependence",
+    "Promoting segregation to reduce intergroup conflict",
+    "Encouraging individuals to avoid discussing or acknowledging differences",
+    "Direct confrontation of prejudiced beliefs",
+    "Strict enforcement of penalties for prejudiced behavior",
+    "Public information campaigns",
+    "Mandatory diversity training for all citizens",
+    "Forcing desegregation and busing"
+   ],
+   "answer": "C",
+   "category": "psychology"
+  },
+  {
+   "qid": "206",
+   "question": "Traders in major financial institutions use the Black-Scholes formula in a backward fashion to infer other traders' estimation of $\\sigma$ from option prices. In fact, traders frequently quote sigmas to each other, rather than prices, to arrange trades. Suppose a call option on a stock that pays no dividend for 6 months has a strike price of $35, a premium of $2.15, and time to maturity of 7 weeks. The current short-term T-bill rate is 7%, and the price of the underlying stock is $36.12. What is the implied volatility of the underlying security?",
+   "options": [
+    "0.275",
+    "0.225",
+    "0.165",
+    "0.195",
+    "0.210",
+    "0.350",
+    "0.300",
+    "0.180",
+    "0.320",
+    "0.251"
+   ],
+   "answer": "J",
+   "category": "business"
+  },
+  {
+   "qid": "5968",
+   "question": "How many moles of HCl must be added to sufficient water to form 3 liters of a 2 M HCI solution?",
+   "options": [
+    "1 mol",
+    "3 mol",
+    "6 mol",
+    "2 mol",
+    "4 mol",
+    "9 mol",
+    "10 mol",
+    "5 mol",
+    "7 mol",
+    "8 mol"
+   ],
+   "answer": "C",
+   "category": "other"
+  },
+  {
+   "qid": "4732",
+   "question": "The “Lion Man” from Hohlenstein-Stadel cave is an example of:",
+   "options": [
+    "mobiliary art.",
+    "long-distance trade of exotic raw materials.",
+    "parietal art.",
+    "a Venus figurine."
+   ],
+   "answer": "A",
+   "category": "history"
+  },
+  {
+   "qid": "6021",
+   "question": "Very rapid disposal of the body, before sundown on the day of the death, is typical of which religion?",
+   "options": [
+    "Tao",
+    "Jewish",
+    "Hindu",
+    "Baha'i",
+    "Islam",
+    "Zoroastrianism",
+    "Sikhism",
+    "Buddhism",
+    "Christianity",
+    "Shinto"
+   ],
+   "answer": "C",
+   "category": "health"
+  },
+  {
+   "qid": "11794",
+   "question": "A steel helical spring of index 10 has 12 active coils. The spring is made of oil-tempered no. 7 gauge wire. Determine the fundamental frequency of the spring if (1) one end is fixed and one end is free. (2) both ends are fixed. For the first case, check for the safety of the spring against failure due to surging when the operating load frequency due to external excitation source is 120 cycles per minute. The specific weight of steel is y = 0.285 lb/in3 and acceleration due to gravity g = 386 in/sec. Modulus of rigidity for steel G = 11.5 × 10^6 lb/in^2.",
+   "options": [
+    "29 cycles/sec and 58 cycles/sec",
+    "28 cycles/sec and 56 cycles/sec",
+    "31 cycles/sec and 62 cycles/sec",
+    "34 cycles/sec and 68 cycles/sec",
+    "30 cycles/sec and 60 cycles/sec",
+    "33 cycles/sec and 66 cycles/sec",
+    "37 cycles/sec and 74 cycles/sec",
+    "35 cycles/sec and 70 cycles/sec",
+    "32 cycles/sec and 64 cycles/sec",
+    "36 cycles/sec and 72 cycles/sec"
+   ],
+   "answer": "F",
+   "category": "engineering"
+  },
+  {
+   "qid": "2845",
+   "question": "Why are the elements carbon, hydrogen, oxygen, and nitrogen (C, H, O, N) of immense importance in living matter ?",
+   "options": [
+    "These elements are the only elements that can form gases at room temperature",
+    "These elements are abundant in living organisms, can readily form covalent bonds and are the lightest elements that can form such bonds.",
+    "These elements are the primary sources of energy for living organisms",
+    "These elements are radioactive, which is vital for cellular processes",
+    "These elements are capable of undergoing sublimation, which is crucial for life functions",
+    "These elements are rare and thus more valuable",
+    "These elements give color to living organisms",
+    "These elements can only be found in DNA and proteins",
+    "These elements are the heaviest elements in living organisms",
+    "These elements have magnetic properties that are essential for life"
+   ],
+   "answer": "B",
+   "category": "biology"
+  },
+  {
+   "qid": "2020",
+   "question": "The adaptive response of a six-month-old child who shows distress when an attachment figure leaves is known as",
+   "options": [
+    "reactive attachment disorder",
+    "separation anxiety",
+    "stranger anxiety",
+    "avoidant attachment",
+    "secure attachment",
+    "ambivalent attachment",
+    "attachment anxiety",
+    "object permanence",
+    "dependent attachment",
+    "disorganized attachment"
+   ],
+   "answer": "B",
+   "category": "psychology"
+  },
+  {
+   "qid": "3385",
+   "question": "The average birth weight for human babies is about 3 kg. Which of the following terms best describes this?",
+   "options": [
+    "disruptive selection",
+    "sexual selection",
+    "bottleneck effect",
+    "non-random mating",
+    "stabilizing selection",
+    "genetic drift",
+    "directional selection",
+    "founder effect",
+    "diversifying selection",
+    "artificial selection"
+   ],
+   "answer": "E",
+   "category": "biology"
+  },
+  {
+   "qid": "12182",
+   "question": "Let X be the random variable denoting the result of the single toss of a fair coin. If the toss is heads, X = 1. If the toss results in tails, X = 0. What is the probability distribution of X?",
+   "options": [
+    "f(0) = (0) and f(1) = (1)",
+    "f(0) = (1/2) and f(1) = (1/2)",
+    "f(0) = (1) and f(1) = (0)",
+    "f(0) = (1/6) and f(1) = (5/6)",
+    "f(0) = (2/5) and f(1) = (3/5)",
+    "f(0) = (3/7) and f(1) = (4/7)",
+    "f(0) = (1/5) and f(1) = (4/5)",
+    "f(0) = (1/4) and f(1) = (3/4)",
+    "f(0) = (1/3) and f(1) = (2/3)",
+    "f(0) = (3/8) and f(1) = (5/8)"
+   ],
+   "answer": "B",
+   "category": "engineering"
+  },
+  {
+   "qid": "11215",
+   "question": "Most of those who take the externalist approach to meaning view the matter from a _____ standpoint.",
+   "options": [
+    "existentialist",
+    "ideological",
+    "apathetic",
+    "agnostic",
+    "secular",
+    "spiritual",
+    "religious",
+    "philosophical",
+    "pragmatic",
+    "nonreligious"
+   ],
+   "answer": "G",
+   "category": "philosophy"
+  },
+  {
+   "qid": "6891",
+   "question": "Which of the following statements is true?",
+   "options": [
+    "The demand for loanable funds consists of savers.",
+    "Real GDP is the sum of the money supply and the velocity of money.",
+    "The supply of loanable funds is solely determined by the central bank's policies.",
+    "Dollars earned today have more purchasing power than dollars earned a year from today.",
+    "The velocity of money is the speed at which the stock market indices change.",
+    "The demand for loanable funds is entirely driven by government borrowing.",
+    "Purchasing power parity ensures that dollars have the same value across all time periods.",
+    "The supply of loanable funds consists of investors.",
+    "Inflation rates are inversely proportional to the velocity of money at all times."
+   ],
+   "answer": "D",
+   "category": "economics"
+  },
+  {
+   "qid": "5102",
+   "question": "What character did Woody replace on the TV show 'Cheers'?",
+   "options": [
+    "Norm",
+    "Cliff",
+    "Carla",
+    "Lilith",
+    "Vera",
+    "Sam",
+    "Frasier",
+    "Coach",
+    "Rebecca",
+    "Diane"
+   ],
+   "answer": "H",
+   "category": "other"
+  },
+  {
+   "qid": "7408",
+   "question": "What is the difference between open and repressed inflation?",
+   "options": [
+    "Open inflation occurs when price stability breaks down and prices rise, usually in non-communist industrial economies. Repressed inflation is when prices are legally fixed, leading to waiting lines and backlog-lists, often in communist industrial economies.",
+    "Open inflation is when prices rise due to excessive demand, and repressed inflation is when prices rise due to excessive production costs",
+    "Repressed inflation occurs openly in the market, while open inflation is hidden and not reflected in official statistics",
+    "Open inflation is a temporary surge in prices due to natural disasters, while repressed inflation is a long-term trend caused by excessive spending",
+    "Open inflation is when the government actively increases the money supply, while repressed inflation occurs due to external factors beyond government control",
+    "Open inflation only occurs in communist economies while repressed inflation occurs in non-communist economies",
+    "Open inflation is characterized by an increase in virtual currency values, while repressed inflation is a concept in traditional economies only",
+    "Open inflation refers to a rapid increase in the stock market, while repressed inflation refers to slow economic growth with rising prices",
+    "Open inflation is when prices are fixed and repressed inflation is when prices rise",
+    "Open inflation and repressed inflation both refer to a decrease in prices"
+   ],
+   "answer": "A",
+   "category": "economics"
+  },
+  {
+   "qid": "10643",
+   "question": "Let a undirected graph G with edges E = {<0,3>, <1,3>, <2,3>}, which <A,B> represent Node A is connected to Node B. What is the minimum vertex cover of G? Represent the vertex cover in a list of ascending order.",
+   "options": [
+    "[1, 2, 3]",
+    "[0, 1, 2, 3]",
+    "[0, 1]",
+    "[0, 2, 3]",
+    "[2, 3]",
+    "[3]",
+    "[1, 2]",
+    "[0, 1, 3]",
+    "[0, 1, 2]",
+    "[0, 3]"
+   ],
+   "answer": "F",
+   "category": "computer science"
+  },
+  {
+   "qid": "10618",
+   "question": "A programmer is writing a program that is intended to be able to process large amounts of data. Which of the following considerations is LEAST likely to affect the ability of the program to process larger data sets?",
+   "options": [
+    "How much storage space the program requires as it runs",
+    "The number of users using the program simultaneously",
+    "How long the program takes to run",
+    "How many programming statements the program contains",
+    "The programming language in which the program is written",
+    "How much memory the program requires as it runs",
+    "The speed of the processor on the computer running the program"
+   ],
+   "answer": "D",
+   "category": "computer science"
+  },
+  {
+   "qid": "4989",
+   "question": "This question refers to the following information.\n\"Buckingham Palace, 10th May 1839.\nThe Queen forgot to ask Lord Melbourne if he thought there would be any harm in her writing to the Duke of Cambridge that she really was fearful of fatiguing herself, if she went out to a party at Gloucester House on Tuesday, an Ancient Concert on Wednesday, and a ball at Northumberland House on Thursday, considering how much she had to do these last four days. If she went to the Ancient Concert on Wednesday, having besides a concert of her own here on Monday, it would be four nights of fatigue, really exhausted as the Queen is.\nBut if Lord Melbourne thinks that as there are only to be English singers at the Ancient Concert, she ought to go, she could go there for one act; but she would much rather, if possible, get out of it, for it is a fatiguing time&….\nAs the negotiations with the Tories are quite at an end, and Lord Melbourne has been here, the Queen hopes Lord Melbourne will not object to dining with her on Sunday?\"\nThe Letters of Queen Victoria, Volume 1 (of 3), 1837-1843: A Selection from Her Majesty's Correspondence Between the Years 1837 and 1861\nThe long evenings of entertainment for Queen Victoria suggest what about the nature of the English monarchy in the nineteenth century?",
+   "options": [
+    "That the monarchy was heavily involved in promoting the arts and music",
+    "That true political power lay elsewhere",
+    "That Queen Victoria had a personal preference for English singers",
+    "That important political progress could only be made by attending social events",
+    "That fatigue was a common issue for monarchs due to their social obligations",
+    "That the monarchy was disconnected from the general public's day-to-day life",
+    "That Queen Victoria was a key figure in the negotiation of political matters",
+    "That the monarchy was primarily focused on social engagements",
+    "That she was very fond of attending balls and concerts",
+    "That with England's nineteenth-century economic success came more leisure time for the upper classes"
+   ],
+   "answer": "B",
+   "category": "history"
+  },
+  {
+   "qid": "10821",
+   "question": " Carruthers approaches questions about the moral standing of nonhuman animals from the perspective of which of the following moral theories?",
+   "options": [
+    "relativism",
+    "consequentialism",
+    "natural law theory",
+    "egoism",
+    "Kantianism",
+    "utilitarianism",
+    "deontology",
+    "contractualism",
+    "existentialism",
+    "virtue ethics"
+   ],
+   "answer": "H",
+   "category": "philosophy"
+  },
+  {
+   "qid": "10535",
+   "question": "A network with one primary and four secondary stations uses polling. The size of a data frame is 1000 bytes. The size of the poll, ACK, and NAK frames are 32 bytes each. Each station has 5 frames to send. How many total bytes are exchanged if each station can send only one frame in response to a poll?",
+   "options": [
+    "19536",
+    "20000",
+    "20500",
+    "22000",
+    "23000",
+    "24000",
+    "25000",
+    "26000",
+    "21536",
+    "18000"
+   ],
+   "answer": "I",
+   "category": "computer science"
+  },
+  {
+   "qid": "3487",
+   "question": "A rooster with gray feathers and a hen with the same phenotype produce 17 gray, 7 black, and 8 white chicks. What is the simplest explanation for the inheritance of these colors in chickens?",
+   "options": [
+    "The trait for gray is epistatic over the trait for black.",
+    "The traits for gray and white color demonstrate incomplete dominance.",
+    "The trait for black is epistatic over the trait for white.",
+    "The traits for black and white color demonstrate codominance.",
+    "The trait for white is epistatic over the trait for gray.",
+    "The traits for black and white color demonstrate incomplete dominance.",
+    "The traits for black, gray and white colors demonstrate complete dominance.",
+    "The traits for gray and black color demonstrate codominance.",
+    "The trait for gray is epistatic over the trait for white.",
+    "The trait for black is epistatic over the trait for gray."
+   ],
+   "answer": "F",
+   "category": "biology"
+  },
+  {
+   "qid": "10705",
+   "question": "The elements of a victor V are entered as follows on an APL computer. V \\leftarrow 3 4 2 -1. Show what will be displayed as a result of each of the Following statements: a) ×/V,b) \\div/V,c) \\textasteriskcentered/V d) -/V,e) +/V.",
+   "options": [
+    "-24, 0.375, 9, 2, 8",
+    "-24, 0.375, 81, -6, 8",
+    "-24, 2.5, 8, -2, 8",
+    "24, -1.5, 9, -2, 8",
+    "-24, -1.5, 9, 1, 5",
+    "-24, -1.5, 9, 2, 8",
+    "24, 2.5, 81, 0, 8",
+    "-24, -2, 8, 2, 8",
+    "24, 0.375, 81, -6, 8",
+    "-20, -1.5, 9, 3, 7"
+   ],
+   "answer": "F",
+   "category": "computer science"
+  },
+  {
+   "qid": "7279",
+   "question": "What gives rise to the so-called pecuniary economies or diseconomies of scale",
+   "options": [
+    "Changes in the market demand and supply",
+    "Changes in the short-term operational efficiency of the company",
+    "Fluctuations in the stock market affecting the company’s capital valuation",
+    "Changes in the overall economic condition",
+    "Changes in the long-run cost per unit of output due to variations in the prices of inputs",
+    "Variations in employee productivity and labor costs",
+    "Changes in government regulations and tax policies",
+    "Adjustments in the company's advertising and marketing strategies",
+    "Changes in the company's internal management",
+    "Shifts in consumer preferences and brand loyalty"
+   ],
+   "answer": "E",
+   "category": "economics"
+  },
+  {
+   "qid": "7100",
+   "question": "The population of country X is exactly the same as country Y but country X produces twice as much output as country Y. We can conclude that",
+   "options": [
+    "the people of country X are smarter than the people of country Y.",
+    "the people of country Y work twice as hard as the people of country X.",
+    "country X has twice as much land as country Y.",
+    "the people of country X enjoy a standard of living twice as much as country Y.",
+    "the people of country X are twice as educated as the people of country Y.",
+    "country Y has twice the population density of country X.",
+    "the people of country Y enjoy a standard of living twice as much as country X.",
+    "country X has twice as much natural resources as country Y.",
+    "the people of country X work half as much as the people of country Y."
+   ],
+   "answer": "D",
+   "category": "economics"
+  },
+  {
+   "qid": "10901",
+   "question": "Select the best translation into predicate logic. Kevin is introduced to José by Wilma. (j: José; k: Kevin; w: Wilma; Ixyz: x introduces y to z)",
+   "options": [
+    "Ijkw",
+    "Iwjw",
+    "Iwjk",
+    "Ijwk",
+    "Ikkj",
+    "Ijjk",
+    "Iwwk",
+    "Ikjw",
+    "Iwkj"
+   ],
+   "answer": "I",
+   "category": "philosophy"
+  },
+  {
+   "qid": "10934",
+   "question": "Berkeley asserts that existing and perceiving are _____.",
+   "options": [
+    "imaginary",
+    "interdependent",
+    "both nonexistent",
+    "one and the same thing",
+    "two distinct things",
+    "sequential",
+    "mutually exclusive",
+    "dichotomous",
+    "unrelated",
+    "both illusions"
+   ],
+   "answer": "D",
+   "category": "philosophy"
+  },
+  {
+   "qid": "10799",
+   "question": "The fallacy of reprehensible personality is a specific type of",
+   "options": [
+    "the fallacy of accident",
+    "False dilemma",
+    "Begging the question",
+    "Circular reasoning"
+   ],
+   "answer": "A",
+   "category": "philosophy"
+  },
+  {
+   "qid": "6073",
+   "question": "Most of the free fatty acids are transported in the blood:",
+   "options": [
+    "inside the red blood cells.",
+    "combined with oxygen.",
+    "as triglycerides.",
+    "as free molecules.",
+    "bound to white blood cells.",
+    "as lipoproteins.",
+    "attached to hemoglobin.",
+    "combined with glucose.",
+    "in the form of cholesterol.",
+    "bound to albumin."
+   ],
+   "answer": "J",
+   "category": "health"
+  },
+  {
+   "qid": "1563",
+   "question": "A man entered a half-opened window to a neighbor's trailer and waited in the dark bedroom inside. After a while, he got in bed and had sexual relations with the woman while she slept. At trial, he claimed that he believed that the woman had consented because he had dated her many times and had consensual sexual relations with her many times in the past. He hadn't seen her in about one week but assumed her consent. He denied specific intent to rape and claimed a desire to surprise her with a \"romantic\" variation of their usual activities. The woman admitted to prior consensual relations but denied consent on this occasion. Has he stated a viable defense to rape?",
+   "options": [
+    "No, his belief that she consented in advance was unreasonable and impermissible.",
+    "No, because he did not receive explicit consent for this specific encounter.",
+    "Yes, because he entered through an unlocked window which could be seen as an invitation.",
+    "Yes, because they had a history of consensual relations and this could be seen as a continuation of that.",
+    "Yes, rape is a specific intent crime and there's no evidence that he intended a criminal result.",
+    "Yes, his belief that she consented was reasonable based on prior experience.",
+    "No, rape of an unconscious woman is a strict liability crime that does not permit a defense.",
+    "No, because the woman was asleep and unable to give consent.",
+    "Yes, because he had no intent to harm or force her into anything she didn't want.",
+    "No, because consent cannot be assumed from past experiences."
+   ],
+   "answer": "A",
+   "category": "law"
+  }
+ ]
+}

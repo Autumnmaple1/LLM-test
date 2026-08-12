@@ -1,0 +1,18 @@
+# ---- 大型数据文件（超过 GitHub 100MB 限制，不入库）----
+数据/data_hle/
+数据/data_mmlu/
+数据/data_halu/
+数据/mmlupro/
+数据/mmlu/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- 其它大型/临时产物 ----
+*.parquet
+*.csv.bak
+结果/
+*.log
