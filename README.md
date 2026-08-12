@@ -68,10 +68,3 @@ python3 closed_loop.py             # TruthfulQA 版闭环（负结果复现）
 | FActScore | 30.5% → **82.9%**（32/40 条提升） |
 | 负结果（适用边界） | TruthfulQA AUROC 0.573≈随机——只捕捉"编造型"幻觉，不捕捉"稳定错误型" |
 | 裸基准 | MMLU 92.5% / MMLU-Pro 84.5% / HLE 34.8%（flash） |
-
-## 模型与配置
-
-- **模型标识**：`provider/model` 形式——`deepseek/deepseek-v4-pro`（主模型）、`deepseek/deepseek-v4-flash`（交叉模型）、`ikun/gpt-5.6-sol`（ChatGPT 系，可选主模型）
-- **密钥位置**：DeepSeek key 在 `~/.hermes/.env` 的 `DEEPSEEK_API_KEY`；ikun 代理在 `~/.hermes/config.yaml` 的 custom_providers 段（`https://api.ikuncode.cc/v1`）
-- **注意**：`.env` 未包含在本打包内，运行前需自行配置；llm_client.py 顶部会自动清理坏代理环境变量
-- **思考模式开关**：judge/验证等简单任务用 `thinking=False`（便宜百倍）；难题生成用 `effort=low` 抑制超长思考
